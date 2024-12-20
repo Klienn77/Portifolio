@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('./imagens/pexels-rpnickson-7238759.jpg') no-repeat center center fixed; /* Caminho para sua imagem */
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header h1 {
+    margin-top: 0.5em;
+}
+
+header p {
+    font-style: italic;
+}
+
+section {
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente para legibilidade */
+    margin: 1em auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ddd;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin-top: 2em;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+a {
+    color: #0072b1; /* Azul do LinkedIn */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+i.fab {
+    margin-right: 8px;
+}
